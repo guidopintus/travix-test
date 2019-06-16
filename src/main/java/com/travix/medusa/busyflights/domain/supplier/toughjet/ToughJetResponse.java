@@ -1,6 +1,8 @@
-package com.travix.medusa.busyflights.domain.toughjet;
+package com.travix.medusa.busyflights.domain.supplier.toughjet;
 
-public class ToughJetResponse {
+import com.travix.medusa.busyflights.domain.supplier.SupplierFlightInfoElement;
+
+public class ToughJetResponse implements SupplierFlightInfoElement {
 
     private String carrier;
     private double basePrice;

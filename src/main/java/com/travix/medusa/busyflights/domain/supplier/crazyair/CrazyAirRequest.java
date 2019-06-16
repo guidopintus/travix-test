@@ -1,6 +1,8 @@
-package com.travix.medusa.busyflights.domain.crazyair;
+package com.travix.medusa.busyflights.domain.supplier.crazyair;
 
-public class CrazyAirRequest {
+import com.travix.medusa.busyflights.domain.supplier.SupplierFlightQuery;
+
+public class CrazyAirRequest implements SupplierFlightQuery {
 
     private String origin;
     private String destination;
